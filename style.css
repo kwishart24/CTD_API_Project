@@ -1,0 +1,279 @@
+/*-------------------------- BODY ---------------------------------------*/
+body {
+  margin: 10% auto;
+  padding: 0;
+  background-color: #d5b9b2;
+  color: #121619;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+/*Tablet View*/
+
+@media screen and (min-width: 768px) {
+  /*Change color of body on tablet*/
+  body {
+    background-color: #d5b9b2;
+    margin: 0 auto;
+  }
+}
+
+/*Desktop View*/
+
+@media screen and (min-width: 1024px) {
+  /*Change color of body on desktop*/
+  body {
+    background-color: #e1ece3;
+    margin: 0 auto;
+  }
+}
+
+/*-------------------------- H1s ---------------------------------------*/
+
+h1 {
+  text-align: center;
+  color: #582c4d;
+  font-size: 2rem;
+  font-weight: 550;
+  margin: 0 auto;
+  padding: 0.5em;
+}
+
+/*Tablet View*/
+
+@media screen and (min-width: 768px) {
+  /*Larger h1 and color change on tablet*/
+  h1 {
+    font-size: 2rem;
+    color: #582c4d;
+    margin: 0 auto;
+    padding: 0.5em;
+  }
+}
+
+/*Desktop View*/
+
+@media screen and (min-width: 1024px) {
+  /*Larger h1 and color change on desktop*/
+  h1 {
+    font-size: 3rem;
+    color: #294d4a;
+    margin: 0 auto;
+    padding: 0.5em;
+  }
+}
+
+#projectTitle {
+  margin: 4em auto 1em;
+  max-width: 80%;
+}
+
+/*-------------------------- WEB APP INSTRUCTIONS ---------------------------------------*/
+#explanation {
+  font-size: 1.2rem;
+  margin: 0 auto;
+  max-width: 80%;
+  margin-bottom: 1.5em;
+  text-align: center;
+}
+
+/*Tablet View*/
+
+@media screen and (min-width: 768px) {
+  #explanation {
+    font-size: 1.5rem;
+    line-height: 1.5;
+  }
+}
+
+/*Desktop View*/
+
+@media screen and (min-width: 1024px) {
+  #explanation {
+    font-size: 2rem;
+    line-height: 1.5;
+  }
+}
+
+/*-------------------------- FORM ---------------------------------------*/
+
+form {
+  max-width: 80%;
+  margin: 0 auto;
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+#myForm {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0;
+  padding-bottom: 0;
+  margin: 0 auto;
+  max-width: 80%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-weight: 600;
+}
+
+/*Tablet View*/
+
+@media screen and (min-width: 768px) {
+  #myForm {
+    display: flex;
+    flex-direction: column;
+    row-gap: 0;
+    margin: 0 auto;
+    padding: 0;
+    align-items: center;
+    font-weight: 600;
+  }
+  #userInput {
+    display: flex;
+    flex-direction: row;
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 0;
+    column-gap: 2em;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+}
+
+/*Desktop View*/
+
+@media screen and (min-width: 1024px) {
+  #userInput {
+    display: flex;
+    flex-direction: row;
+    max-width: 70%;
+    flex-basis: 33.333%;
+    flex-wrap: nowrap;
+    margin: 0 auto;
+    font-size: 1.5rem;
+  }
+}
+
+form input {
+  margin: 1.1em auto;
+  font-size: 1.25rem;
+}
+
+/*Tablet View*/
+
+@media screen and (min-width: 768px) {
+  form input {
+    margin: 2em auto;
+    font-size: 2rem;
+  }
+}
+
+/*Desktop View*/
+
+@media screen and (min-width: 1024px) {
+  form input {
+    margin: 1em auto;
+    font-size: 2rem;
+  }
+}
+
+#button {
+  display: block;
+}
+
+#submitBtn {
+  margin: 1em auto 2em;
+  padding: 0.75em;
+  font-size: 1.1rem;
+  border-radius: 15px;
+  box-shadow: 2px 2px 5px rgba(88, 44, 77, 1);
+  background-color: #582c4d;
+  color: #fff;
+  font-weight: 600;
+}
+
+/*Tablet View*/
+
+@media screen and (min-width: 768px) {
+  #submitBtn {
+    font-size: 1.5rem;
+    margin-top: 0;
+  }
+}
+
+/*Desktop View*/
+
+@media screen and (min-width: 1024px) {
+  #submitBtn {
+    font-size: 1.5rem;
+    box-shadow: 2px 2px 5px rgba(41, 77, 74, 1);
+    background-color: #294d4a;
+    color: #fff;
+    font-weight: 600;
+    margin-top: 1.25em;
+  }
+
+  #submitBtn:hover {
+    cursor: pointer;
+  }
+}
+
+/*-------------------------- WEATHER & ART SECTIONS ---------------------------------------*/
+
+#results-grid {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  margin-bottom: 4em;
+  font-size: 1rem;
+}
+
+/*Tablet View*/
+
+@media screen and (min-width: 768px) {
+  h2 {
+    font-size: 3rem;
+  }
+}
+
+/*Desktop View*/
+
+@media screen and (min-width: 1024px) {
+  h2 {
+    font-size: 4rem;
+  }
+}
+
+#art-grid {
+  max-width: 75%;
+  margin: 0 auto;
+}
+
+img {
+  max-width: 80%;
+}
+
+p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+/*Tablet View*/
+
+@media screen and (min-width: 768px) {
+  p {
+    font-size: 2rem;
+  }
+}
+
+/*Desktop View*/
+
+@media screen and (min-width: 1024px) {
+  p {
+    font-size: 2.5rem;
+  }
+}
